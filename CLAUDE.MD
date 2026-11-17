@@ -1,0 +1,3 @@
+- only human looking code and text, use the skill whenever. 
+- dont reimport libraries in every cell
+- only simple , human like comments

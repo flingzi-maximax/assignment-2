@@ -1,0 +1,79 @@
+Using a deep learning framework: Autoencoders
+Due 22 Nov by 23:59 Points 10 Submitting a text entry box or a file upload Available 11 Nov at 16:00 - 22 Nov at 23:59
+This week, you will do what you were hoping for last week: use someone else's implementation of backpropagation.
+
+You will build a convolutional autoencoder using one of the deep learning libraries that you can find online.  You will investigate if it is possible to use a (simple) autoencoder to colourise grayscale images.
+
+As last week, you will solve this assignment in pairs. Please create the pair on the People/Assignment pairs page in Canvas (if you did not do it for the first assignment) and clearly indicate who you partnered up with when you submit your results (include your names in the report and add a comment in the submission indicating the authors).
+
+Lab - CAE.pdfDownload Lab - CAE.pdf
+
+ 
+
+Handing in
+Upload your zipped code, report (in PDF format only) and a short (2-5 minutes) video tracing your code and report separately (so 3 different files, namely zip (with the code), PDF and video) through the student portal. Late or partial (missing video, code and/or report) submissions will NOT be graded (you will not get credit for your work). One submission per pair is sufficient, though both students may submit if preferred. Each submission must include the partner’s name in the comments
+Note: A Jupyter Notebook that combines code and report can also be submitted. However, you must submit not only the ipynb file but also a PDF version. Therefore, the three files to be submitted will be an ipynb file, a PDF and the video.
+Hint on the video preparation
+The video must be short; we will stop checking it after minute 5:00. To decide what to prioritise in the video, we highly recommend that you base your explanation on the rubric provided within the assignment in Canvas.
+The video can be prepared by one student, or (preferably) by both students.
+We can use any app, but we recommend the use of TechSmith Capture (other apps, such as Xbox Game Bar, will not work if you want to show two applications, e.g. report and code). TechSmith Capture is available for free at https://www.techsmith.com/jing-tool.htmlLinks to an external site.. You can find more information and some possible alternatives here.
+Do NOT submit the video via Mediasite; include it directly as a file on the submission page.
+IMPORTANT: Please test the program you are planning to use as soon as possible and do not wait until the submission day to do so. Problems related to the recording system at the last minute will not be a valid reason, and late submissions will not be accepted.  If you have any doubts/problems, let me (enrique.hortal@maastrichtuniversity.nl) know asap.
+Rubric
+ACML Assignment 2 Rubric
+ACML Assignment 2 Rubric
+Criteria	Ratings	Pts
+This criterion is linked to a learning outcomeImplementation and architecture explanation
+- Clear description of how the CAE was built using a deep learning library (layers, filters, pooling/upsampling, activations)
+- Shows understanding of encoder/decoder roles and the latent space
+2 Pts
+Excellent
+1 Pts
+Good
+0 Pts
+Insufficient
+2 pts
+This criterion is linked to a learning outcomeTraining and reconstruction results
+- Demonstrates training process (data split, normalisation, loss function)
+- Explains learning curve (error over epochs) and reports reconstruction quality (test error, example outputs)
+2 Pts
+Excellent
+1 Pts
+Good
+0 Pts
+Insufficient
+2 pts
+This criterion is linked to a learning outcomeLatent space and architecture variations
+- Shows awareness of latent space size and its impact
+- Discusses experiments with different architectures (filters, strides, channels, etc.) and their effect on performance
+2 Pts
+Excellent
+1 Pts
+Good
+0 Pts
+Insufficient
+2 pts
+This criterion is linked to a learning outcomeColorization task and insights
+- Explains how grayscale-to-color mapping was set up
+Presents results (e.g., reconstructed colored outputs) and discusses limitations (e.g., blurry colors, dataset biases)
+- Suggests potential improvements
+2 Pts
+Excellent
+1 Pts
+Good
+0 Pts
+Insufficient
+2 pts
+This criterion is linked to a learning outcomeReport, presentation and collaboration
+- The report was adequate in length and well-written
+- Clear, concise, well-structured video (≤5 minutes)
+- Both authors seem to know the work done
+- Report and code referenced briefly (but not substituted for explanation).
+2 Pts
+Excellent
+1 Pts
+Good
+0 Pts
+Insufficient
+2 pts
+Total points: 10
